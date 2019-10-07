@@ -1,0 +1,57 @@
+{ 
+  "users" : [{
+    "name" : "Susie",
+    "profile_type" : "PER",
+    "user_type" : "PR",
+    "segment" : "PHP", 
+    "checking" : {
+      "id" : "2356",
+      "product_code" : "PC 010",
+      "balance" : "1000",
+      "status" : "active", 
+      "transactions" : true,
+      "deposits_transfers" : true,
+      "credits_refunds" : true,
+      "associations" : [{
+        "id" : "8524",
+        "type": "debit"
+      }]
+    },
+    "savings" : {
+      "id" : "8759",
+      "product_code" : "PC 010",
+      "balance" : "1500",
+      "status" : "active", 
+      "transactions" : true,
+      "deposits_transfers" : true,
+      "associations" : []
+    },
+    "cards" : [
+      {
+        "type" : "debit",
+        "title" : "Debit Card",
+        "id" : "8524",
+        "transactions" : true,
+        "balance" : "N/A",
+        "associations" : [{
+            "id" : "2356",
+            "type": "checking"}]},
+      {
+        "type" : "credit",
+        "title" : "Slate Credit Card",
+        "id" : "5674",
+        "transactions" : true,
+        "balance" : "Account",
+        "associations" : []},
+      {
+        "type" : "credit",
+        "title" : "Southwest Credit Card",
+        "id" : "2576",
+        "transactions" : true,
+        "balance" : "Account",
+        "associations" : []}
+    ],
+    "transactions" : []
+    }
+  ]
+}
