@@ -61,7 +61,7 @@
         "due_date":"Aug 30, 2019"
       }, 
       {
-        "bill_id": 02 
+        "bill_id": 02,
         "card_id": "2576",
         "amount": "365",
         "minimum_amount":"35",
