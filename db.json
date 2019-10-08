@@ -56,7 +56,7 @@
       {
         "bill_id" : "01", 
         "card_id" : "5674",
-        "card_title" : "Slate Credit Card",
+        "card_title" : "Slate",
         "amount" : "235",
         "minimum_amount" : "35",
         "due_date" : "Aug 30, 2019"
@@ -64,7 +64,7 @@
       {
         "bill_id" : "02",
         "card_id" : "2576",
-        "card_title" : "Southwest Credit Card",
+        "card_title" : "Southwest",
         "amount" : "365",
         "minimum_amount" : "35",
         "due_date" : "Sept 5, 2019"
