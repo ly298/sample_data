@@ -51,7 +51,23 @@
         "balance" : "Account",
         "associations" : []}
     ],
-    "transactions" : []
+    "transactions" : [], 
+    "bills": [
+      {
+        "bill_id": 01, 
+        "card_id": "5674",
+        "amount": "235",
+        "minimum_amount":"35",
+        "due_date":"Aug 30, 2019"
+      }, 
+      {
+        "bill_id": 03, 
+        "card_id": "2576",
+        "amount": "365",
+        "minimum_amount":"35",
+        "due_date":"Sept 5, 2019"
+      }
+    ]
     }
   ]
 }
