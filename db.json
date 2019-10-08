@@ -54,14 +54,14 @@
     "transactions" : [], 
     "bills": [
       {
-        "bill_id": 01, 
+        "bill_id": "01", 
         "card_id": "5674",
         "amount": "235",
         "minimum_amount":"35",
         "due_date":"Aug 30, 2019"
       }, 
       {
-        "bill_id": 02,
+        "bill_id": "02",
         "card_id": "2576",
         "amount": "365",
         "minimum_amount":"35",
